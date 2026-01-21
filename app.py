@@ -17,7 +17,7 @@ def get_bmi_status(bmi):
         return "고도비만", "🔴"
 
 # 페이지 설정
-st.set_page_config(page_title="건강 기록 앱", page_icon="❤️")
+st.set_page_config(page_title="건강 기록 앱2", page_icon="❤️")
 st.title("❤️ 나의 건강 기록")
 
 # 데이터 저장소 초기화
