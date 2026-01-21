@@ -25,7 +25,7 @@ if 'health_data' not in st.session_state:
     st.session_state.health_data = []
 
 # --- 입력 영역 ---
-st.subheader("📝 오늘의 건강 기록")
+st.subheader("📝 ◆오늘의 건강 기록 ★")
 
 col1, col2, col3, col4 = st.columns(4)
 
