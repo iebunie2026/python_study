@@ -101,7 +101,7 @@ if st.button("💾 기록 저장", type="primary"):
 # --- 기록 보기 ---
 if st.session_state.health_data:
     st.divider()
-    st.subheader("📊 나의 건강 기록")
+    st.subheader("📊***** 나의 건강 기록 *****")
     
     df = pd.DataFrame(st.session_state.health_data)
     df = df.sort_values("날짜")
